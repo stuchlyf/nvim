@@ -1,8 +1,9 @@
 return {
+  { "felipeagc/fleet-theme-nvim" },
   {
-    "felipeagc/fleet-theme-nvim",
-    config = function()
-      vim.cmd("colorscheme fleet")
-    end,
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "fleet",
+    },
   },
 }
